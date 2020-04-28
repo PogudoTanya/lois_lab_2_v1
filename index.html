@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ЛОИС ЛР1</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <p>
+        Формула:
+        <input id="inputString">
+    </p>
+
+    <p>
+    
+	<button class="calculateButton" onclick="input_values()">Вычислить возможные значения формулы</button>
+    </p>
+    <p>
+	<table id="Table" border="1"><tbody id="TableBody"></tbody></table>
+    </p>
+	<p>
+	<div id = "continueButtonDiv"></div>
+	</p>
+
+
+    <button type="button" onclick="print()">Сгенерировать формулу</button>
+      <h2 id="generate_formula"></h2>
+      <h2 id ="result_1"></h2>
+      <h2 id ="result_2"></h2>
+      <h2 id ="result_3"></h2>
+      <input type="text" id="text-number" class='inner' />
+      <button
+      type="button"
+      onclick="checkUserAnswer();"
+      class="btn"
+      id="result_4"
+      class='inner'
+    >
+      Ответ
+    </button>
+</body>
+</html>
